@@ -1,23 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <PackageId>Pgvector.Dapper</PackageId>
-    <Version>0.1.1</Version>
-    <Authors>ankane</Authors>
-    <Description>pgvector support for Dapper</Description>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/pgvector/pgvector-dotnet</PackageProjectUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PropertyGroup>
+        <PackageId>Morabaa.Pgvector.Dapper</PackageId>
+        <Version>0.2.0</Version>
+        <Authors>ankane, Muntadhar Haydar</Authors>
+        <Description>pgvector support for Dapper</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/MorabaaSoftwareSolutions/pgvector-dotnet</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
 
-    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
-  </PropertyGroup>
+        <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
-    <ProjectReference Include="..\Pgvector\Pgvector.csproj" />
-    <PackageReference Include="Dapper" Version="2.0.4" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8" />
-  </ItemGroup>
+    <ItemGroup>
+        <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="\" />
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <ProjectReference Include="..\Pgvector\Pgvector.csproj" />
+        <PackageReference Include="Dapper" Version="2.0.4" />
+        <PackageReference Include="System.Data.SqlClient" Version="4.8" />
+    </ItemGroup>
 
 </Project>

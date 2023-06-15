@@ -1,24 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <PackageId>Pgvector.EntityFrameworkCore</PackageId>
-    <Version>0.1.1</Version>
-    <Authors>ankane</Authors>
-    <Description>pgvector support for Entity Framework Core</Description>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/pgvector/pgvector-dotnet</PackageProjectUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PropertyGroup>
+        <PackageId>Morabaa.Pgvector.EntityFrameworkCore</PackageId>
+        <Version>0.2.0</Version>
+        <Authors>ankane, Muntadhar Haydar</Authors>
+        <Description>pgvector support for Entity Framework Core</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/MorabaaSoftwareSolutions/pgvector-dotnet</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
 
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
-    <ProjectReference Include="..\Pgvector\Pgvector.csproj" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0-preview.3" />
-  </ItemGroup>
+    <ItemGroup>
+        <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="\" />
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <ProjectReference Include="..\Pgvector\Pgvector.csproj" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0-preview.4" />
+    </ItemGroup>
 
 </Project>
